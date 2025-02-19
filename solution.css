@@ -1,0 +1,13 @@
+/* Solution: Increase the specificity of the general selector or use !important (use cautiously) */
+.general-class {
+  color: blue;
+  /* Add more specific styles if necessary */
+}
+
+#specific-id {
+  color: red !important; /* !important should be used sparingly */
+}
+.general-class #specific-id {
+  color: green; /*More Specific selector*/
+}
+/*Or Change the order of CSS rules, the last one will have precedence*/
