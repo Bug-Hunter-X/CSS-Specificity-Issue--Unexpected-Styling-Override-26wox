@@ -1,0 +1,1 @@
+This repository demonstrates a common CSS issue related to specificity.  A more specific selector unintentionally overrides a general style, causing unexpected visual results. The solution shows how to correct this by adjusting selector specificity or using the !important flag (use cautiously).
